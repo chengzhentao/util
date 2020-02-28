@@ -8,10 +8,10 @@ package com.xbs.util.base;
  **/
 public enum ErrorMessage {
 
-    SERVER_ERROE(1,"服务器在偷懒"),
-    PARAM_ERROE(2,"参数错误"),
-    NEED_LOGIN(10000,"需要用户登录"),
+    SERVER_ERROE(400,"服务器在偷懒,请稍后再试"),
+    NEED_LOGIN(401,"请登录"),
 
+    PARAM_ERROE(10000,"参数错误"),
     PASSWORD_ERROE(10001,"手机号或者密码错误"),
     PHONE_ERROR(10002,"手机号为空"),
     LOGIN_ERROR(10003,"登录失败，请重试"),
