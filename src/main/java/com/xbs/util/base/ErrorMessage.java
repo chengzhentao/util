@@ -12,15 +12,10 @@ public enum ErrorMessage {
     NEED_LOGIN(401,"请登录"),
 
     PARAM_ERROE(10000,"参数错误"),
-    PASSWORD_ERROE(10001,"手机号或者密码错误"),
-    PHONE_ERROR(10002,"手机号为空"),
-    LOGIN_ERROR(10003,"登录失败，请重试"),
-    ACCOUNT_EXISTS(1004,"账户已存在，请直接登录"),
-    REGIST_ERROR(10005,"注册失败，请重试"),
-    CODE_ERROER(10006,"验证码错误"),
-    IVALID_PHONE(10007,"请输入正确的手机号");
-
-
+    PHONE_ERROR(100001,"请输入正确的手机号"),
+    PHONE_PASSWORD_ERROR(10002,"手机号或者密码错误"),
+    PHONE_COMFIRM_ERROR(10003,"验证码错误"),
+    TOKEN_ERROR(10004,"token过期请重新登录");
 
 
 
