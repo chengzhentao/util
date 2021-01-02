@@ -8,6 +8,8 @@ package com.xbs.util.base;
  **/
 public enum ErrorMessage {
 
+    SUCCESS(500,"成功"),
+
     SERVER_ERROE(400,"服务器在偷懒,请稍后再试"),
     NEED_LOGIN(401,"请登录"),
 
@@ -15,7 +17,10 @@ public enum ErrorMessage {
     PHONE_ERROR(100001,"请输入正确的手机号"),
     PHONE_PASSWORD_ERROR(10002,"手机号或者密码错误"),
     PHONE_COMFIRM_ERROR(10003,"验证码错误"),
-    TOKEN_ERROR(10004,"token过期请重新登录");
+    TOKEN_ERROR(10004,"请重新登录"),
+    USERNAME_ERROR(10005,"用户名密码错误");
+    ;
+
 
 
 
